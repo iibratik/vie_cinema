@@ -1,0 +1,119 @@
+@media (max-width: 1150px) {
+    .container.series{
+        padding: 0 15px;
+    }
+    .series-mini-cards{
+        gap: 15px;
+        width: 544px;
+    }
+    .film-cards{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .coll-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .series-cards-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .series-mini-cards{
+        justify-content: center;
+    }
+    .series-main-card{
+        background-position: right;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer-content{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .nav-content__list{
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(0deg, rgba(2,0,36,0.5) 0%, rgba(4,2,54,0.4990371148459384) 11%, rgba(5,4,72,0.4962359943977591) 22%, rgba(6,5,84,0.5046393557422969) 33%, rgba(7,6,95,0.5046393557422969) 44%, rgba(8,8,109,0.4962359943977591) 57%, rgba(9,9,121,0.4962359943977591) 68%, rgba(6,72,163,0.5018382352941176) 78%, rgba(3,148,213,0.4962359943977591) 90%, rgba(0,212,255,0.5046393557422969) 100%);
+        gap: 60px;
+        z-index: 999;
+        transition: 800ms;
+    }
+    .nav-content__list-link{
+        font-size: 30px;
+    }
+    .burger{
+        color: white;
+        font-size: 40px;
+        display: block;
+        position: absolute;
+        right: 5%;
+        z-index: 1000;
+    }
+    .burger:hover ~ .nav-content__list{
+        right: 0;
+    }
+    .series-second-card{
+        background-position: center;
+    }
+}
+
+@media (max-width:450px) {
+    .header-content h1{
+        font-size: 40px;
+    }
+    .header-content div{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 15px;
+    }
+    .btn{
+        margin: 0;
+    }
+    .trailer-content img{
+        width: 100%;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .coll-card{
+        border-radius: 15px;
+        background-position: center;
+    }
+    .coll-card:nth-child(2){
+        background-position: center;
+    }
+    .coll-card:nth-child(3){
+        background-position: center;
+    }
+    .main-title{
+        width: 100%;
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    .header-content{
+        text-align: center;
+    }
+    .trailer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-content__list-link{
+        font-size: 24px;
+    }
+}
